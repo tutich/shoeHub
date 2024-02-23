@@ -1,0 +1,310 @@
+
+
+
+
+import { AiFillStar } from "react-icons/ai";
+
+const data = [
+    {
+        img: require('../dataimg/P-IMG-20230717-WA0012.jpg'),
+        title: "Vans Off the Wall ",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(119 reviews)",
+        prevPrice: "$140",
+        newPrice: "128",
+        company: "VANS",
+        color: "Green",
+        category: "Deck",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20230912-WA0047.jpg'),
+        title: "Vans Off the Wall",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(89 reviews)",
+        prevPrice: "$128",
+        newPrice: "169",
+        company: "VANS",
+        color: "Maroon",
+        category: "Deck",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20231121-WA0014.jpg'),
+        title: "Vans Off the Wall",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(70 reviews)",
+        prevPrice: "$149",
+        newPrice: "199",
+        company: "VANS",
+        color: "Grey",
+        category: "Deck",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20240107-WA0010.jpg'),
+        title: "Vans Off the Wall",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(123 reviews)",
+        prevPrice: "$160",
+        newPrice: "200",
+        company: "VANS",
+        color: "Black",
+        category: "Deck",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20230915-WA0005.jpg'),
+        title: "Yeezy Foam Runners",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(38 reviews)",
+        prevPrice: "$140",
+        newPrice: "129",
+        company: "Adidas",
+        color: "Brown",
+        category: "slip-on",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20230915-WA0008.jpg'),
+        title: "Yeezy Foam Runners",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(103 reviews)",
+        prevPrice: "$148",
+        newPrice: "179",
+        company: "Adidas",
+        color: "Grey",
+        category: "slip-on",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20230915-WA0009.jpg'),
+        title: "Yeezy Foam Runners",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(133 reviews)",
+        prevPrice: "$140",
+        newPrice: "201",
+        company: "Adidas",
+        color: "Cream",
+        category: "slip-on",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20230915-WA0010.jpg'),
+        title: "Yeezy Foam Runners",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(120 reviews)",
+        prevPrice: "$128",
+        newPrice: "199",
+        company: "Adidas",
+        color: "White",
+        category: "slip-on",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20231031-WA0029.jpg"),
+        title: "Air Jordan 4 ",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(193 reviews)",
+        prevPrice: "$199",
+        newPrice: "229",
+        company: "Jordan",
+        color: "fire red",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240205-WA0005.jpg"),
+        title: "Air Jordan 4",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(80 reviews)",
+        prevPrice: "$201",
+        newPrice: "210",
+        company: "Jordan",
+        color: "White/Grey",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240205-WA0008.jpg"),
+        title: "Air Jordan 4",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(301 reviews)",
+        prevPrice: "$189",
+        newPrice: "200",
+        company: "Jordan",
+        color: "Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240218-WA0005.jpg"),
+        title: "Jordan Air 4 PSG",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(703 reviews)",
+        prevPrice: "$159",
+        newPrice: "209",
+        company: "Jordan",
+        color: "Maroon/White/Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240113-WA0027.jpg"),
+        title: "Converse North Star",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(378 reviews)",
+        prevPrice: "$189",
+        newPrice: "199",
+        company: "NORTH STAR",
+        color: "White",
+        category: "canvas",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240113-WA0028.jpg"),
+        title: "Converse North Star",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(802 reviews)",
+        prevPrice: "$148",
+        newPrice: "195",
+        company: "NORTH STAR",
+        color: "Black",
+        category: "canvas",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240115-WA0007.jpg"),
+        title: "Puma Suede",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(91 reviews)",
+        prevPrice: "$143",
+        newPrice: "166",
+        company: "Puma",
+        color: "grey",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240115-WA0010.jpg"),
+        title: "Puma Suede",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(106 reviews)",
+        prevPrice: "$140",
+        newPrice: "138",
+        company: "Puma",
+        color: "Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240115-WA0017.jpg"),
+        title: "Nike Jordan 1 Low",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(207 reviews)",
+        prevPrice: "$180",
+        newPrice: "203",
+        company: "Nike",
+        color: "White/Green",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240207-WA0005.jpg"),
+        title: "Nike Jordan 1 Low",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(128 reviews)",
+        prevPrice: "$180",
+        newPrice: "160",
+        company: "Nike",
+        color: "Black/White",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240116-WA0018.jpg"),
+        title: "LV skate sneaker",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(133 reviews)",
+        prevPrice: "$190",
+        newPrice: "215",
+        company: "Louis Vuitton",
+        color: "Red/Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240205-WA0001.jpg"),
+        title: "LV skate sneaker",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(198 reviews)",
+        prevPrice: "$200",
+        newPrice: "206",
+        company: "Louis Vuitton",
+        color: "White/Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require("../dataimg/P-IMG-20240213-WA0008.jpg"),
+        title: "Air Force 1 low",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(196 reviews)",
+        prevPrice: "$200",
+        newPrice: "180",
+        company: "Nike",
+        color: "Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20240213-WA0009.jpg'),
+        title: "Air Force 1 low",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(1003 reviews)",
+        prevPrice: "$140",
+        newPrice: "200",
+        company: "Nike",
+        color: "White",
+        category: "sneakers",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20240218-WA0000.jpg'),
+        title: "Air Max 90",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(123 reviews)",
+        prevPrice: "$210",
+        newPrice: "201",
+        company: "Nike",
+        color: "White/Red/Grey",
+        category: "sneakers",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20240218-WA0006.jpg'),
+        title: "Air Max 90",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(127 reviews)",
+        prevPrice: "$200",
+        newPrice: "208",
+        company: "Nike",
+        color: "White/Pink/Black",
+        category: "sneakers",
+      },
+
+      {
+        img: require('../dataimg/P-IMG-20240205-WA0023.jpg'),
+        title: "Jordan Air 3 'palomino'",
+        star: <AiFillStar className="rating-star" />,
+        reviews: "(68 reviews)",
+        prevPrice: "$149",
+        newPrice: "200",
+        company: "Jordan",
+        color: "White/Chocolate",
+        category: "sneakers",
+      }
+      
+]
+
+export default data;
