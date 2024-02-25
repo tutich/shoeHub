@@ -3,7 +3,7 @@ import "./Price.css";
 
 const Price = ({ handleChange }) => {
   return (
-    <>
+    <div className='price'>
       <div className="ml">
         <h2 className="sidebar-title price-title">Price</h2>
 
@@ -40,7 +40,7 @@ const Price = ({ handleChange }) => {
           name="test2"
         />
       </div>
-    </>
+    </div>
   );
 };
 

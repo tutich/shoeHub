@@ -4,7 +4,7 @@ import "./Sidebar.css";
 
 const Sidebar = ({ handleChange }) => {
   return (
-    <>
+    <div className="side">
       <section className="sidebar">
         <div className="logo-container">
           <h1></h1>
@@ -12,7 +12,7 @@ const Sidebar = ({ handleChange }) => {
         <Category handleChange={handleChange} />
         <Price handleChange={handleChange} />
       </section>
-    </>
+    </div>
   );
 };
 
