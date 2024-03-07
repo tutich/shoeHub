@@ -5,7 +5,7 @@ import "./Nav.css";
 
 const Nav = ({ handleInputChange, query }) => {
   return (
-    <nav>
+    <nav className="nav-container">
       
   
          <div className="bar">
